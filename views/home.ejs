@@ -1,0 +1,5 @@
+
+<% for(let dish of dishes) { %>
+    <h2><a href="/dishes/<%= dish.id %>"><%= dish.title %></a></h2>
+    <img src="<%= dish.image_url %>" alt="">
+<% } %>
